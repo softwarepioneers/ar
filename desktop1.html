@@ -568,19 +568,20 @@
                 </div>
                 <div id="footer-nav-links" class="col-xs-12 text-center ">
                  
-		    <a href="desktop1.html" class="hidden-xs hidden-sm" >الحاسوب</a>
+		   <a href="desktop1.html" class="hidden-xs hidden-sm" >الحاسوب</a>
                     <a href="network1.html" class="hidden-xs hidden-sm">الشبكات</a>
 	            <a href="internet1.html" class="hidden-xs hidden-sm">الويب</a>
                     <a href="services1.html" class="hidden-xs hidden-sm">الخدمات</a>
                     <a href="blogs1.html" >المدونات</a>
                     <a href="events1.html" class="hidden-xs hidden-sm">الفعاليات </a>
                     <a href="courses1.html" class="hidden-xs hidden-sm">الدورات </a>
-                    <a href="home.html"> الإنجليزية</a>
+                    <a href="index.html"> الإنجليزية</a>
 		 <hr >
                 </div>
               
-                <div class="col-xs-12 text-center">
-                    <h2> جميع الحقوق المحفوظة  &copy; للرؤية للبرمجيات</h2>
+                 <div class="col-xs-12 text-center">
+		    <h2 > جميع الحقوق المحفوظة للرؤية للبرمجيات</h2>
+		    <h2 >2015&mdash;<span id="demo"></span> &copy; </h2>			  
                 </div>
             </div>
         </div>
@@ -588,7 +589,11 @@
        <script src="js/jquery-2.2.4.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/script.js"></script>
-
+    <script>
+        const d = new Date();
+        let year = d.getFullYear();
+        document.getElementById("demo").innerHTML = year;
+        </script>
 </body>
 
 </html>
