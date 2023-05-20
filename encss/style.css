@@ -380,8 +380,8 @@ h2 {
 }
 
 hr{
-    width:60%;
-    border-top:2px solid #464646;
+    width:100%;
+    border-top:2px solid #ffffff;
     margin-top: 20px;
     margin-bottom: 20px;
 }

@@ -19,6 +19,7 @@ nav.navbar {
     border-bottom: 1px solid transparent;
     z-index: 20;
     text-align: right;
+    
 }
 
 nav.navbar button.navbar-toggler {
@@ -91,6 +92,7 @@ header {
     background-position: center center;
     background-size: cover;
     min-height: 100vh;
+    
 }
 
 header .overlay {

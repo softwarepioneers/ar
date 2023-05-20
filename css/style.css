@@ -2,12 +2,13 @@
 
 body {
   font-family: "Cairo Regular", 'Cambria, Cochin, Georgia, Times, Times New Roman, serif';
+  background-color: #393939;
 }
 
 .ibrahim1 {text-align: center;}
 
 .custom-navbar {
-  background-color: white;
+  background-color: #393939;
   border: none;
   font-weight: bold;
   border-bottom: 0px solid #EEEEEE;
@@ -161,6 +162,7 @@ font-size: 20px;
   margin-right: 0px;
   margin-left: 0px;
   margin-top: 10px;
+  background-color: #393939;
 }
 
 .custom-thumbnail > img {
@@ -256,10 +258,11 @@ h4,
 h5 {
   font-weight: bold;
   margin-bottom: 15px;
+  color: white;
 }
 
 h3 {
-  color: #202020;
+  color: white;
 }
 
 h5 {
@@ -756,7 +759,7 @@ body{
 
 
 .custom-navbar {
-    background-color: white;
+  background-color: #393939;
     border: none;
     font-weight: bold;
     border-bottom: 1px solid #EEEEEE;
@@ -986,6 +989,7 @@ body{
  h3,h4, h5 {
     font-weight: bold;
     margin-bottom: 15px;
+    color: white;
 }
 
 h3 {
@@ -1460,7 +1464,7 @@ hr{
 
 
 .Text-format{
-  color:black;
+  color:rgb(247, 245, 245);
   font-size:30px;
   font-family:Changa;
   padding: 19px;
